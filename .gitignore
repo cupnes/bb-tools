@@ -1,0 +1,7 @@
+*~
+*.o
+
+local_conf.h
+
+lib.h
+lib.c
