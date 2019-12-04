@@ -9,6 +9,6 @@ $(TARGET): $(SRCS)
 	gcc $(CFLAGS) -o $@ $+
 
 clean:
-	rm -f *~ *.o $(TARGET) include/*~
+	rm -f *~ *.o $(TARGET) include/*~ lives/*~
 
 .PHONY: clean
